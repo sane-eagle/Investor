@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_stocks"
+        android:icon="@drawable/stocks"
+        android:title="@string/title_stocks" />
+
+    <item
+        android:id="@+id/navigation_f_o"
+        android:icon="@drawable/f_o"
+        android:title="@string/title_f_o" />
+
+    <item
+        android:id="@+id/navigation_mutualfunds"
+        android:icon="@drawable/mutualfunds"
+        android:title="@string/title_mutualfunds" />
+
+    <item
+        android:id="@+id/navigation_upi"
+        android:icon="@drawable/upi"
+        android:title="@string/title_upi" />
+
+</menu>

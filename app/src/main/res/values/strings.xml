@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Investor</string>
+    <string name="title_stocks">Stocks</string>
+    <string name="title_f_o">F&amp;O</string> <!-- Fixed line -->
+    <string name="title_mutualfunds">Mutual Funds</string>
+    <string name="title_upi">UPI</string>
+</resources>
