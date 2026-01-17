@@ -77,69 +77,77 @@
 | **Visualization** | Custom Views & Chart Libraries |
 
 ---
-
-## 🚀 Getting Started
+🚀 Getting Started
 
 Follow these steps to build and run the app locally.
 
-### 1️⃣ Clone the Repository
+1️⃣ Clone the Repository
+
 Open your terminal or Git Bash and run:
 
-```bash
-git clone [https://github.com/SANE-EAGLE/INVESTOR.git](https://github.com/SANE-EAGLE/INVESTOR.git)
+git clone https://github.com/SANE-EAGLE/INVESTOR.git
+
 2️⃣ Open in Android Studio
-Launch Android Studio.
 
-Click File → Open.
+Launch Android Studio
 
-Select the cloned INVESTOR folder.
+Click File → Open
 
-Wait for Gradle to sync dependencies.
+Select the cloned INVESTOR folder
+
+Wait for Gradle to sync all dependencies
 
 3️⃣ Configure SDK & Gradle
-Ensure you have the minimum Android SDK installed (check build.gradle). If prompted, click "Sync Now" to update Gradle versions.
+
+Ensure the minimum Android SDK required by the project is installed
+(check build.gradle)
+
+If Android Studio prompts you, click “Sync Now” to update Gradle
 
 4️⃣ Run the App
-Connect an Android device via USB or start an Emulator.
 
-Click the ▶ Run button.
+Connect a physical Android device via USB OR start an Emulator
 
-The app will build and launch! 🎉
+Click the ▶ Run button in Android Studio
 
-🧪 Build & Debug commands
-Build Debug APK:
+The app will build and launch 🎉
 
-Bash
-
+🧪 Build & Debug Commands
+Build Debug APK
 ./gradlew assembleDebug
-Clean Project:
 
-Bash
-
+Clean Project
 ./gradlew clean
+
 🧠 Roadmap & Future Enhancements
-[ ] 📄 Export Reports: Generate PDF / CSV statements.
 
-[ ] ⚠️ Risk Metrics: Advanced volatility and beta calculations.
+ 📄 Export Reports: Generate PDF / CSV statements
 
-[ ] 💱 Multi-Currency: Live conversion and consolidated reporting.
+ ⚠️ Risk Metrics: Advanced volatility and beta calculations
 
-[ ] 🔒 Security: Encrypted local backups and biometric lock.
+ 💱 Multi-Currency: Live conversion and consolidated reporting
 
-[ ] 📱 Tablet Support: Optimized UI for larger screens.
+ 🔒 Security: Encrypted local backups and biometric lock
+
+ 📱 Tablet Support: Optimized UI for larger screens
 
 🤝 Contributing
-Contributions are welcome! If you'd like to improve INVESTOR:
 
-Fork the repository.
+Contributions are welcome! To contribute:
 
-Create a Feature Branch (git checkout -b feature/NewFeature).
+Fork the repository
 
-Commit your changes.
+Create a feature branch
 
-Open a Pull Request.
+git checkout -b feature/NewFeature
+
+
+Commit your changes
+
+Open a Pull Request
 
 ⭐ Support
+
 If you find this project useful, please consider:
 
 ⭐ Starring the repository
@@ -148,7 +156,8 @@ If you find this project useful, please consider:
 
 💡 Suggesting new features
 
-<p align="center"> <b>INVESTOR — Track Smart. Stay Private.</b>
+<p align="center"> <b>INVESTOR — Track Smart. Stay Private.</b> </p>
 
+Licensed under the <a href="./LICENSE">MIT License</a>.
 
 Licensed under the <a href="./LICENSE">MIT License</a>. </p>
