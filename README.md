@@ -1,198 +1,154 @@
-📈 INVESTOR – Privacy-First Investment Tracker (Android)
+# 📈 INVESTOR – Privacy-First Investment Tracker
 
-<p align="center"> <b>Beautiful. Simple. Private.</b><br/> Track your wealth. Own your data. </p> <p align="center"> <img src="./screenshots/screenshot.jpg" height="420"/> <img src="./screenshots/screenshot1.jpg" height="420"/> <img src="./screenshots/screenshot2.jpg" height="420"/> <img src="./screenshots/screenshot3.jpg" height="420"/> </p>
-🌱 About the Project
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=flat&logo=android" alt="Platform" />
+  <img src="https://img.shields.io/badge/Language-Kotlin-7F52FF?style=flat&logo=kotlin" alt="Language" />
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=flat" alt="License" />
+  <br/>
+  <br/>
+  <b>Beautiful. Simple. Private.</b>
+  <br/>
+  <i>Track your wealth. Own your data.</i>
+</p>
 
-INVESTOR is a privacy-first investment tracking Android application designed to help users track, analyze, and visualize their wealth without relying on third-party data sharing or cloud lock-in.
+---
 
-Grow your wealth. Own your data.
-A modern replacement for spreadsheets — clean, fast, and insightful.
+## 📸 Overview
 
-✨ Key Features
-📊 Portfolio Overview
+<p align="center">
+  <img src="./screenshots/screenshot.jpg" width="22%" alt="Home Screen"/>
+  <img src="./screenshots/screenshot1.jpg" width="22%" alt="Portfolio"/>
+  <img src="./screenshots/screenshot2.jpg" width="22%" alt="Analytics"/>
+  <img src="./screenshots/screenshot3.jpg" width="22%" alt="Settings"/>
+</p>
 
-Track total net worth across all accounts
+### 🌱 About the Project
 
-View performance over time (1W, 1M, 3M, YTD, 1Y, 5Y)
+**INVESTOR** is a privacy-first investment tracking Android application designed to help users track, analyze, and visualize their wealth without relying on third-party data sharing or cloud lock-in.
 
-Clean and minimal UI with light & dark themes
+> **Grow your wealth. Own your data.**
+> A modern replacement for spreadsheets — clean, fast, and insightful.
 
-🏦 All Assets. One Place.
+---
 
-Aggregate multiple accounts:
+## ✨ Key Features
 
-Brokerage
+### 📊 Portfolio Overview
+* **Net Worth Tracking:** View total net worth across all aggregated accounts.
+* **Time Travel:** Analyze performance over `1W`, `1M`, `3M`, `YTD`, `1Y`, and `5Y`.
+* **Modern UI:** Clean, minimal interface with full support for **Light & Dark themes**.
 
-Retirement (IRA / Roth)
+### 🏦 All Assets. One Place.
+* **Centralized Hub:** Aggregate Brokerage, Retirement (IRA/Roth), and Cash/Savings accounts.
+* **Instant Visibility:** See the big picture of your finances instantly without switching apps.
 
-Cash & Savings
+### 🔍 Deep Insights & Exposure
+* **Allocation Breakdown:** Visual breakdowns by account and asset class.
+* **Currency Exposure:** Track allocation across different currencies (USD, CAD, etc.).
+* **Risk Management:** visualize risk and exposure levels clearly.
 
-See the big picture instantly
+### 🧩 Market Visualization
+* **Heatmaps:** Instantly spot the market status.
+    * 🔥 Biggest Winners
+    * ❄️ Biggest Losers
+* **Sector Analysis:** Color-coded insights for sector-wise allocation.
 
-<p align="center"> <img src="./screenshots/screenshot2.jpg" width="30%"/> </p>
-🔍 Gain Insight. Know Your Exposure.
+### 📈 Real Returns
+* **Benchmarking:** Compare your portfolio directly against market benchmarks (e.g., S&P 500).
+* **Performance:** Calculate annualized returns & volatility.
+* **Side-by-Side:** View direct performance comparisons to gauge true growth.
 
-Currency allocation (USD, CAD, etc.)
+### 🔐 Privacy-First by Design
+* **Local-First:** All data is stored locally on your device via Room Database.
+* **No Cloud Lock-in:** No forced syncs, no servers, no API tracking.
+* **Zero Data Sales:** You allow zero access to your financial information.
 
-Account allocation breakdown
+---
 
-Risk and exposure visualization
+## 🛠 Tech Stack
 
-<p align="center"> <img src="./screenshots/screenshot3.jpg" width="30%"/> </p>
-🧩 Visualize the Market
+| Component | Technology |
+| :--- | :--- |
+| **Platform** | Android (Native) |
+| **Language** | Kotlin |
+| **Architecture** | MVVM (Model-View-ViewModel) |
+| **UI** | Material Design / Jetpack Components |
+| **Database** | Room (Local Persistence) |
+| **Visualization** | Custom Views & Chart Libraries |
 
-Heatmaps to spot:
+---
 
-Biggest winners
+## 🚀 Getting Started
 
-Biggest losers
+Follow these steps to build and run the app locally.
 
-Sector-wise allocation analysis
+### 1️⃣ Clone the Repository
+Open your terminal or Git Bash and run:
 
-Intuitive color-coded insights
-
-<p align="center"> <img src="./screenshots/screenshot4.jpg" width="30%"/> </p>
-📈 Track Real Returns
-
-Compare portfolio vs market benchmarks (e.g., S&P 500)
-
-Annualized returns & volatility
-
-Side-by-side performance comparison
-
-<p align="center"> <img src="./screenshots/screenshot5.jpg" width="30%"/> </p>
-🔐 Privacy-First by Design
-
-No forced cloud sync
-
-No selling user data
-
-Local-first data storage
-
-You control your financial information
-
-🛠 Tech Stack
-
-Platform: Android
-
-Language: Kotlin
-
-Architecture: MVVM
-
-UI: Material Design / Jetpack Components
-
-Charts & Visualization: Custom views / chart libraries
-
-Storage: Local database (Room / local persistence)
-
-🚀 Getting Started (Android Studio)
-1️⃣ Clone the Repository
-git clone https://github.com/SANE-EAGLE/INVESTOR.git
-
-Or using GitHub Desktop:
-
-Click Code → Open with GitHub Desktop
-
-Clone the repository locally
-
+```bash
+git clone [https://github.com/SANE-EAGLE/INVESTOR.git](https://github.com/SANE-EAGLE/INVESTOR.git)
 2️⃣ Open in Android Studio
+Launch Android Studio.
 
-Launch Android Studio
+Click File → Open.
 
-Click File → Open
+Select the cloned INVESTOR folder.
 
-Select the cloned INVESTOR folder
-
-Click OK
-
-Android Studio will:
-
-Detect Gradle files
-
-Start indexing
-
-Download required dependencies
+Wait for Gradle to sync dependencies.
 
 3️⃣ Configure SDK & Gradle
-
-Ensure you have:
-
-Android SDK installed
-
-Minimum required SDK version (as defined in build.gradle)
-
-If prompted:
-
-Click “Sync Now”
-
-Accept Gradle version updates if needed
+Ensure you have the minimum Android SDK installed (check build.gradle). If prompted, click "Sync Now" to update Gradle versions.
 
 4️⃣ Run the App
+Connect an Android device via USB or start an Emulator.
 
-Connect an Android device OR start an emulator
+Click the ▶ Run button.
 
-Click ▶ Run
+The app will build and launch! 🎉
 
-Select your device
+🧪 Build & Debug commands
+Build Debug APK:
 
-App builds and launches 🎉
+Bash
 
-🧪 Build & Debug
 ./gradlew assembleDebug
+Clean Project:
 
-For clean builds:
+Bash
 
 ./gradlew clean
+🧠 Roadmap & Future Enhancements
+[ ] 📄 Export Reports: Generate PDF / CSV statements.
 
-📂 Project Structure (Overview)
-INVESTOR/
-│── app/
-│ ├── ui/ # Screens & ViewModels
-│ ├── data/ # Models & local storage
-│ ├── utils/ # Helpers & extensions
-│ └── MainActivity.kt
-│── gradle/
-│── build.gradle
-│── settings.gradle
-│── README.md
+[ ] ⚠️ Risk Metrics: Advanced volatility and beta calculations.
 
-🧠 Future Enhancements
+[ ] 💱 Multi-Currency: Live conversion and consolidated reporting.
 
-Export reports (PDF / CSV)
+[ ] 🔒 Security: Encrypted local backups and biometric lock.
 
-Advanced risk metrics
-
-Multi-currency conversions
-
-Encrypted local backups
-
-Tablet-optimized UI
+[ ] 📱 Tablet Support: Optimized UI for larger screens.
 
 🤝 Contributing
+Contributions are welcome! If you'd like to improve INVESTOR:
 
-Contributions are welcome!
+Fork the repository.
 
-Fork the repo
+Create a Feature Branch (git checkout -b feature/NewFeature).
 
-Create a feature branch
+Commit your changes.
 
-Commit your changes
-
-Open a Pull Request
-
-📄 License
-
-This project is licensed under the MIT License.
+Open a Pull Request.
 
 ⭐ Support
+If you find this project useful, please consider:
 
-If you find this project useful:
+⭐ Starring the repository
 
-⭐ Star the repository
+🐞 Reporting issues
 
-🐞 Report issues
+💡 Suggesting new features
 
-💡 Suggest features
+<p align="center"> <b>INVESTOR — Track Smart. Stay Private.</b>
 
-Built with care for privacy-conscious investors.
-INVESTOR — Track Smart. Stay Private.
+
+Licensed under the <a href="./LICENSE">MIT License</a>. </p>
