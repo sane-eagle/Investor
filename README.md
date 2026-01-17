@@ -77,61 +77,61 @@
 | **Visualization** | Custom Views & Chart Libraries |
 
 ---
-🚀 Getting Started
+## 🚀 Getting Started
 
-Follow these steps to build and run the app locally.
+**Follow these steps to build and run the app locally.**
 
-1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
 
-Open your terminal or Git Bash and run:
+* **Open your terminal or Git Bash and run:**
 
 git clone https://github.com/SANE-EAGLE/INVESTOR.git
 
-2️⃣ Open in Android Studio
+### 2️⃣ Open in Android Studio
 
-Launch Android Studio
+* **Launch Android Studio**
 
-Click File → Open
+* Click File → Open
 
-Select the cloned INVESTOR folder
+* Select the cloned INVESTOR folder
 
-Wait for Gradle to sync all dependencies
+* Wait for Gradle to sync all dependencies
 
-3️⃣ Configure SDK & Gradle
+### 3️⃣ Configure SDK & Gradle
 
-Ensure the minimum Android SDK required by the project is installed
+* Ensure the minimum Android SDK required by the project is installed
 (check build.gradle)
 
-If Android Studio prompts you, click “Sync Now” to update Gradle
+* If Android Studio prompts you, click “Sync Now” to update Gradle
 
-4️⃣ Run the App
+### 4️⃣ Run the App
 
-Connect a physical Android device via USB OR start an Emulator
+* Connect a physical Android device via USB OR start an Emulator
 
-Click the ▶ Run button in Android Studio
+* Click the ▶ Run button in Android Studio
 
-The app will build and launch 🎉
+* The app will build and launch 🎉
 
-🧪 Build & Debug Commands
-Build Debug APK
+### 🧪 Build & Debug Commands
+**Build Debug APK**
 ./gradlew assembleDebug
 
-Clean Project
+**Clean Project**
 ./gradlew clean
 
-🧠 Roadmap & Future Enhancements
+## 🧠 Roadmap & Future Enhancements
 
- 📄 Export Reports: Generate PDF / CSV statements
+ 📄 **Export Reports**: Generate PDF / CSV statements
 
- ⚠️ Risk Metrics: Advanced volatility and beta calculations
+ ⚠️ **Risk Metrics**: Advanced volatility and beta calculations
 
- 💱 Multi-Currency: Live conversion and consolidated reporting
+ 💱 **Multi-Currency**: Live conversion and consolidated reporting
 
- 🔒 Security: Encrypted local backups and biometric lock
+ 🔒 **Security**: Encrypted local backups and biometric lock
 
- 📱 Tablet Support: Optimized UI for larger screens
+ 📱 **Tablet Support**: Optimized UI for larger screens
 
-🤝 Contributing
+### 🤝 Contributing
 
 Contributions are welcome! To contribute:
 
@@ -142,19 +142,19 @@ Create a feature branch
 git checkout -b feature/NewFeature
 
 
-Commit your changes
+**Commit your changes**
 
-Open a Pull Request
+**Open a Pull Request**
 
-⭐ Support
+#### ⭐ Support
 
-If you find this project useful, please consider:
+#### If you find this project useful, please consider:
 
-⭐ Starring the repository
+** ⭐ Starring the repository **
 
-🐞 Reporting issues
+** 🐞 Reporting issues **
 
-💡 Suggesting new features
+** 💡 Suggesting new features **
 
 <p align="center"> <b>INVESTOR — Track Smart. Stay Private.</b> </p>
 
