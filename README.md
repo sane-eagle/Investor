@@ -157,7 +157,3 @@ git clone https://github.com/SANE-EAGLE/INVESTOR.git
 💡 ** Suggesting new features **
 
 <p align="center"> <b>INVESTOR — Track Smart. Stay Private.</b> </p>
-
-Licensed under the <a href="./LICENSE">MIT License</a>.
-
-Licensed under the <a href="./LICENSE">MIT License</a>. </p>
