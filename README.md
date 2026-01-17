@@ -133,13 +133,13 @@ git clone https://github.com/SANE-EAGLE/INVESTOR.git
 
 ### 🤝 Contributing
 
-Contributions are welcome! To contribute:
+** Contributions are welcome! To contribute: **
 
-Fork the repository
+** Fork the repository **
 
-Create a feature branch
+** Create a feature branch **
 
-git checkout -b feature/NewFeature
+** git checkout -b feature/NewFeature **
 
 
 **Commit your changes**
@@ -148,13 +148,13 @@ git checkout -b feature/NewFeature
 
 #### ⭐ Support
 
-#### If you find this project useful, please consider:
+### If you find this project useful, please consider:
 
-** ⭐ Starring the repository **
+⭐ ** Starring the repository **
 
-** 🐞 Reporting issues **
+🐞 ** Reporting issues **
 
-** 💡 Suggesting new features **
+💡 ** Suggesting new features **
 
 <p align="center"> <b>INVESTOR — Track Smart. Stay Private.</b> </p>
 
