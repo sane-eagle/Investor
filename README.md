@@ -1,6 +1,6 @@
 📈 INVESTOR – Privacy-First Investment Tracker (Android)
 
-<p align="center"> <b>Beautiful. Simple. Private.</b><br/> Track your wealth. Own your data. </p> <p align="center"> <img src="./screenshots/screenshot.jpg" width="22%"/> <img src="./screenshots/screenshot1.jpg" width="22%"/> <img src="./screenshots/screenshot2.jpg" width="22%"/> <img src="./screenshots/screenshot3.jpg" width="22%"/> </p>
+<p align="center"> <b>Beautiful. Simple. Private.</b><br/> Track your wealth. Own your data. </p> <p align="center"> <img src="./screenshots/screenshot.jpg" width="22%" height="420"/> <img src="./screenshots/screenshot1.jpg" width="22%" height="420"/> <img src="./screenshots/screenshot2.jpg" width="22%" height="420"/> <img src="./screenshots/screenshot3.jpg" width="22%" height="420"/> </p>
 🌱 About the Project
 
 INVESTOR is a privacy-first investment tracking Android application designed to help users track, analyze, and visualize their wealth without relying on third-party data sharing or cloud lock-in.
