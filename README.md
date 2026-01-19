@@ -16,10 +16,10 @@
 ## 📸 Overview
 
 <p align="center">
-  <img src="./screenshots/screenshot.jpg" width="22%" alt="Home Screen"/>
-  <img src="./screenshots/screenshot1.jpg" width="22%" alt="Portfolio"/>
-  <img src="./screenshots/screenshot2.jpg" width="22%" alt="Analytics"/>
-  <img src="./screenshots/screenshot3.jpg" width="22%" alt="Settings"/>
+  <img src="./screenshots/screenshot.jpg" height="420" alt="Home Screen"/>
+  <img src="./screenshots/screenshot1.jpg" height="420" alt="Portfolio"/>
+  <img src="./screenshots/screenshot2.jpg" height="420" alt="Analytics"/>
+  <img src="./screenshots/screenshot3.jpg" height="420" alt="Settings"/>
 </p>
 
 ### 🌱 About the Project
